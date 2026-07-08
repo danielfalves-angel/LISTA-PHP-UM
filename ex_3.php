@@ -1,8 +1,8 @@
 <?php
 function esconderSen($string) {
-    return str_repeat('*', strlen($string));
+    return str_repeat('$', strlen($string));
 }
 
-$sen = "pipipopo";
+$sen = "12341";
 echo esconderSen($sen) . "<br>";
 echo $sen;
